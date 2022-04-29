@@ -5,15 +5,9 @@ const apps = [
      * container: 微应用挂载节点 - 微应用加载完成后将挂载在该节点上
      * activeRule: 微应用触发的路由规则 - 触发路由规则后将加载该微应用
      */
-    // {
-    //     name: "qiankun-app",
-    //     entry: "//localhost:8001/qiankun-app",
-    //     container: "#app",
-    //     activeRule: "/qiankun-app"
-    // },
     {
         name: "qiankun-app",
-        entry: "//www.kuyo.club/qiankun-app",
+        entry: "//localhost:8001/qiankun-app",
         container: "#app",
         activeRule: "/qiankun-app"
     }

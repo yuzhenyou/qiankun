@@ -1,4 +1,4 @@
-# vue2-app
+# qiankun-main
 
 ## Project setup
 ```

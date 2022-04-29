@@ -26,10 +26,9 @@ registerMicroApps(apps,
     }
 );
 addGlobalUncaughtErrorHandler((event) => {
-    console.log(event);
     const { msg } = event;
     if (msg && msg.includes('died in status LOADING_SOURCE_CODE')) {
-        console.log('微应用加载失败，请检查应用是否可运行');
+        console.log('加载失败');
     }
 });
 

@@ -1,4 +1,4 @@
-# vue3-app
+# qiankun-app
 
 ## Project setup
 ```

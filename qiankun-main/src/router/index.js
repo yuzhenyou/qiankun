@@ -13,7 +13,7 @@ const routes = [
 ]
 
 const router = new Router({
-    base: "/qiankun-main",
+    base: "/qiankun-main", //配合nginx生产发布,https://xxx.com//qiankun-main,具体根据部署动态修改
     mode: 'history',
     routes
 })
