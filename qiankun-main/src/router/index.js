@@ -6,7 +6,7 @@ const Index = resolve => require(['@/views/index'], resolve)
 
 const routes = [
     {
-        path: '/*',
+        path: '/',
         name: '主页',
         component: Index
     }
