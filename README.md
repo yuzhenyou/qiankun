@@ -83,7 +83,7 @@ const Index = resolve => require(['@/views/index'], resolve)
 
 const routes = [
     {
-        path: '/*',
+        path: '/',
         name: '主页',
         component: Index
     }
@@ -143,7 +143,7 @@ export default {
 
 #### 二、子应用配置说明（qiankun-app）
 
-***src/public-patrh.js*** 为子应用环境变量，用于判断主应用进入时的url地址
+***src/public-path.js*** 为子应用环境变量，用于判断主应用进入时的url地址
 
 *根路径项目webpack_public_path = window.INJECTED_PUBLIC_PATH_BY_QIANKUN
 
