@@ -10,12 +10,6 @@ const apps = [
         entry: "//localhost:8001/qiankun-app",
         container: "#app",
         activeRule: "/qiankun-app"
-    },
-    {
-        name: "qiankun-app",
-        entry: "//www.kuyo.club/qiankun-app",
-        container: "#app",
-        activeRule: "/qiankun-app"
     }
 ];
 export default apps;
